@@ -26,6 +26,13 @@ The data for Peter's *Waypoints* needs to be organized in these categories, to m
 
 Write a program that reads the data from `waypoints.json` and categorizes it as per above.
 
+**Preferred languages in solution**
+
+- Javascript
+- Java
+- Swift
+- C#
+
 Submit the resulting program, with tests to prove result, to a Github repository and share it with your contact person at Springworks.
 
 Good luck!
