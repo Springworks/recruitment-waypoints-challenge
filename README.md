@@ -33,7 +33,7 @@ Write a program that reads the data from `waypoints.json` and categorizes it as 
 - Swift
 - C#
 
-Submit the resulting program, with tests to prove result, to a Github repository and share it with your contact person at Springworks.
+Submit the resulting source code for the solution, with tests to prove result, to a Github repository and share it with your contact person at Springworks.
 
 Good luck!
 
