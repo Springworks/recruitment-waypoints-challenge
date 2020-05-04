@@ -1,6 +1,6 @@
 # Waypoints Challenge
 
-This is a home assignment for recruitment candidates to [Springworks](http://www.springworks.se/careers).
+This is a home assignment for recruitment candidates to [Springworks](https://www.springworks.se).
 
 ## Insurance data categorization
 
