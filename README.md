@@ -28,6 +28,7 @@ Write a program that reads the data from `waypoints.json` and categorizes it as 
 
 **Preferred languages in solution**
 
+- Typescript
 - Javascript
 - Java
 - Swift
