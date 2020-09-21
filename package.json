@@ -1,0 +1,25 @@
+{
+  "name": "recruitment-waypoints-challenge",
+  "version": "0.1.0",
+  "description": "Home assignment for candidates to solve",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/koooge/recruitment-waypoints-challenge.git"
+  },
+  "author": "koooge <koooooge@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/koooge/recruitment-waypoints-challenge/issues"
+  },
+  "homepage": "https://github.com/koooge/recruitment-waypoints-challenge#readme",
+  "devDependencies": {
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.3"
+  }
+}
