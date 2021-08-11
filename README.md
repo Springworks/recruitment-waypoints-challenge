@@ -16,10 +16,10 @@ Peter's car has reported *Waypoints* from a trip (e.g. where it has driven). The
 
 The data for Peter's *Waypoints* needs to be organized in these categories, to make it possible to decide his insurance fee:
 
-- Distance Speeding
-- Duration Speeding
-- Total Distance
-- Total Duration
+- Distance Speeding, meaning the total distance that Peter has driven at a speed exceeding the speed limit
+- Duration Speeding, meaning the total time that Peter has driven at a speed exceeding the speed limit
+- Total Distance, meaning the total driving distance
+- Total Duration, meaning the total driving time
 
 
 ## Challenge
