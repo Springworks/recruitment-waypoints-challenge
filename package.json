@@ -2,10 +2,11 @@
   "name": "recruitment-waypoints-challenge",
   "version": "1.0.0",
   "description": "This is a home assignment for recruitment candidates to [Springworks](https://www.springworks.se).",
-  "main": "index.js",
+  "main": "insuranceData.js",
+  "type": "module",
   "scripts": {
-    "start":"insuranceData.js",
-    "test": "jest --coverage",
+    "start": "node insuranceData.js",
+    "test": "jest --coverage"
   },
   "repository": {
     "type": "git",
