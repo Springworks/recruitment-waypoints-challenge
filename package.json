@@ -1,0 +1,20 @@
+{
+  "name": "recruitment-waypoints-challenge",
+  "version": "1.0.0",
+  "description": "This is a home assignment for recruitment candidates to [Springworks](https://www.springworks.se).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cma-B/recruitment-waypoints-challenge.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cma-B/recruitment-waypoints-challenge/issues"
+  },
+  "homepage": "https://github.com/Cma-B/recruitment-waypoints-challenge#readme"
+}
