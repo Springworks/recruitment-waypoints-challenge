@@ -4,7 +4,8 @@
   "description": "This is a home assignment for recruitment candidates to [Springworks](https://www.springworks.se).",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start":"",
+    "test": "jest",
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/Cma-B/recruitment-waypoints-challenge/issues"
   },
-  "homepage": "https://github.com/Cma-B/recruitment-waypoints-challenge#readme"
+  "homepage": "https://github.com/Cma-B/recruitment-waypoints-challenge#readme",
+  "devDependencies": {
+    "jest": "^29.3.1"
+  }
 }
