@@ -4,8 +4,8 @@
   "description": "This is a home assignment for recruitment candidates to [Springworks](https://www.springworks.se).",
   "main": "index.js",
   "scripts": {
-    "start":"",
-    "test": "jest",
+    "start":"insuranceData.js",
+    "test": "jest --coverage",
   },
   "repository": {
     "type": "git",
