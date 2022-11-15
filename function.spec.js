@@ -1,4 +1,4 @@
-const dataCalculation = require("./insuranceData");
+const  dataCalculation = require ('./insuranceData.js') 
 
 describe("dataCalculation function", () => {
   test("dataCalculation works properly for array lenght < 2", () => {
