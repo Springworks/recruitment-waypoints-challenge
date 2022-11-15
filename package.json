@@ -2,10 +2,10 @@
   "name": "recruitment-waypoints-challenge",
   "version": "1.0.0",
   "description": "This is a home assignment for recruitment candidates to [Springworks](https://www.springworks.se).",
-  "main": "src/insuranceData.js",
+  "main": "insuranceData.js",
   "type": "module",
   "scripts": {
-    "start": "node src/insuranceData.js",
+    "start": "node insuranceData.js",
     "test": "jest --coverage"
   },
   "repository": {
@@ -20,6 +20,11 @@
   },
   "homepage": "https://github.com/Cma-B/recruitment-waypoints-challenge#readme",
   "devDependencies": {
+    "@babel/plugin-syntax-import-assertions": "^7.20.0",
     "jest": "^29.3.1"
+  },
+    "name": "my-project",
+  "jest": {
+    "verbose": true
   }
 }
