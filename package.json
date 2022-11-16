@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "This is a home assignment for recruitment candidates to [Springworks](https://www.springworks.se).",
   "main": "insuranceData.js",
-  "type": "module",
   "scripts": {
     "start": "node insuranceData.js",
     "test": "jest --coverage"
