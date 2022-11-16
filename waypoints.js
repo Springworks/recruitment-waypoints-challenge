@@ -32,7 +32,19 @@ const waypointsCalc = (waypointsArr)=> {
     const prev = waypointsArr[index - 1];
     const distanceInKm = distance(prev.position, curr.position);
     const timeDiff = (new Date(curr.timestamp) - new Date(prev.timestamp)) / 1000;
+    const isSpeeding = curr.speed_limit < curr.speed;
+
+    return {
+      distanceSpeeding: isSpeeding ? acc.distanceSpeeding + distanceInKm : acc.distanceSpeeding,
+      durationSpeeding: isSpeeding ? acc.durationSpeeding + timeDiff : acc.durationSpeeding,
+      totalDistance: acc.totalDistance + distanceInKm,
+      totalDuration: acc.totalDuration + timeDiff
+    }
   }, initialReturnedObj);
+  
+  return calculatedData
 };
+
+console.log(waypointsCalc(waypointsArr));
 
 module.exports = waypointsCalc

@@ -22,10 +22,10 @@ describe("waypointsCalc function works properly", () => {
     const initialData = fs.readFileSync('waypoints.json');
     const waypointsArr = JSON.parse(initialData)
     const finalOutput = {
-      speedDistance: 0.11145661209476529,
-      speedTime: 10,
-      totalTime: 20,
-      totalDistance: 0.20113284650677926
+      distanceSpeeding: 0.11145661209476529,
+      durationSpeeding: 10,
+      totalDistance: 0.20113284650677926,
+      totalDuration: 20
     }
     expect(waypointsCalc(waypointsArr)).toEqual(finalOutput)
   });
