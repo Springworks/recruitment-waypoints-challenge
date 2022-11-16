@@ -25,13 +25,14 @@ const waypointsCalc = (waypointsArr)=> {
   };
    if (waypointsArr.length < 2)
       return initialReturnedObj
-
-  for (let i = 1; i < waypointsArr.length; ++i){
-  const oldReturnedObj = {...returnedObj };
-  const firstPoint = waypointArr[i-1];
-  const secondPoint = waypointArr[i];
-  const distanceInKm = distance (firstPoint.position, secondPoint.position);
-}
+  const calculatedData = waypointsArr.reduce((acc, curr, index, waypointsArr) => {
+    if (index === 0) {
+      return acc;
+    }
+    const prev = waypointsArr[index - 1];
+    const distanceInKm = distance(prev.position, curr.position);
+    const timeDiff = (new Date(curr.timestamp) - new Date(prev.timestamp)) / 1000;
+  }, initialReturnedObj);
 };
 
 module.exports = waypointsCalc
