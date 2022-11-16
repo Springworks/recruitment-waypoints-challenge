@@ -12,4 +12,8 @@ describe("waypointsCalc function works properly", () => {
   test("it returns empty obj if input array is empty", () => {
     expect(waypointsCalc(emptyArr)).toEqual(returnedObj1)
   });
+
+  test("it returns empty obj if input array has one element", () => {
+    expect(waypointsCalc(arrLength1)).toEqual(returnedObj1)
+  });
 });
