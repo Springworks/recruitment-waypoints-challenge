@@ -1,6 +1,6 @@
 # Waypoints Challenge
 
-This is a home assignment for recruitment candidates to [Springworks](https://www.springworks.se).
+This is a home assignment for recruitment candidates to [Haysquare](https://www.haysquare.com/).
 
 ## Insurance data categorization
 
@@ -34,7 +34,7 @@ Write a program that reads the data from `waypoints.json` and categorizes it as 
 - Swift
 - C#
 
-Submit the resulting source code for the solution, with tests to prove result, to a Github repository and share it with your contact person at Springworks.
+Submit the resulting source code for the solution, with tests to prove result, to a Github repository and share it with your contact person at Haysquare.
 
 Good luck!
 
